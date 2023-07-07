@@ -1,0 +1,25 @@
+Code corresponds to inference for relative sparsity
+
+To run a simulated experiment open run.mc.R in Rstudio 
+(set debug to 1 to run a small example)
+
+This will generate selection diagrams
+
+To run Monte-Carlo coverage study, open mc.guide.R also in R studio
+Some of the path names will be live from run.mc.R
+
+Mimic.R has the steps to run the real data analysis, including generating a calibration curve
+
+
+major scripts:
+sim.db.R simulates data
+center.scale.R scales covariates
+utils.R helpers
+run.one.mc.R  runs on MC for coverage
+run.one.select.R runs on MC for selection
+grad.R gradients
+is.R value estimators
+liops.R likelihood
+mc.utils.R MC helpers
+get.var.R variance estimator
+
